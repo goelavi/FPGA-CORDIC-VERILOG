@@ -108,7 +108,7 @@ always @(posedge clk) begin
 
 
 
-                // compute using temp variables (CRITICAL FIX)
+                // compute using temp variables 
 
                 if (z[20] == 1'b0) begin
 
@@ -194,7 +194,7 @@ always @(posedge clk) begin
 
             tanh_out <= z;
 
-            state <= IDLE;   // FIX: return to idle
+            state <= IDLE;   // return to idle
 
         end
 
